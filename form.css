@@ -1,0 +1,43 @@
+/* FORM2 - Validação de Formulário - CSS Básico */
+
+body {
+     background-color: lightskyblue;
+     padding: 3% 20%;
+     font-size: 23px;
+}
+h1, h2 {
+    text-align: center;
+    font-size: 160%;
+    color: #333;
+}
+form {
+     width: 70%;
+     background-color: aliceblue;
+     padding: 3% 7%; 
+     margin: 0 auto;
+}
+input, select {
+    font-size: 20px;
+}
+input:focus {
+     border: 2px solid cyan;  
+     background-color: lightcyan;   
+} 
+button {
+    font-size: 20px;
+    width: 100%;
+    background-color: #ee0000; 
+    color: #fff;
+    margin-top: 20px;
+} 
+span {
+     color: #ee0000; 
+     font-size: .8em;    
+} 
+hr {
+    background-color: #eee;
+    border: 0;
+    padding: 5px 0;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
