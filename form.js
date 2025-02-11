@@ -95,7 +95,7 @@ formulario2.addEventListener("submit", function(event) {
     
     if (!err) { 
 // Informa os dados para o envio do formulário...        
-       formulario2.action="mailto:seuemail@prov.com?subject=Assunto do   email&cc=copia@provedor.com.br&bcc=copiaoculta@provedor.com.br&body=Conteúdo do email que será preenchido automaticamente"; 
+       formulario2.action="mailto:beteweb@gmail.com?subject=Teste no GitHub&cc=bete@fatecsp.br&body=Conteúdo do email que será preenchido automaticamente"; 
        formulario2.method="post";
        formulario2.enctype="text/plain"; 
 // Envia o formulário!        
